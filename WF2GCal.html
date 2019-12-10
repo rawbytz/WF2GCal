@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WorkFlowy To Google Calendar Bookmarklet</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: left;
+      margin: 80px;
+    }
+
+    a:link {
+      color: #6ACFCD
+    }
+
+    a:visited {
+      color: Gray;
+    }
+  </style>
+</head>
+<body>
+  <h3>Version 2.3</h3>
+  <ul>
+    <li>Updated for the new 2018 Google Calendar format.</li>
+  </ul>
+  <p><b>To install, drag the link to your bookmarks bar.</b></p>
+  <br>
+  <p><b><a href="javascript:(function&#32;WF2GCal_2_3(isHF){function&#32;msToGCal(ms){const&#32;gString=new&#32;Date(ms).toISOString();return&#32;gString.replace(/\W/g,'').match(/.{13}/)[0]+'00Z'}function&#32;nextXminutes(m){const&#32;now=new&#32;Date((new&#32;Date).setSeconds(0,0));return&#32;now.setMinutes(Math.ceil(now.getMinutes()/m)*m)}const&#32;duration=30;const&#32;start=nextXminutes(30);const&#32;end=start+duration*60*1e3;const&#32;addEvent='https://calendar.google.com/calendar/r/eventedit?text=';const&#32;name=isHF?WF.currentItem().getNameInPlainText():document.title.replace(/&#32;-&#32;WorkFlowy$/,'');const&#32;url=isHF?`https://workflowy.com${WF.currentItem().getUrl()}`:location.href;const&#32;details=`&amp;details=${encodeURIComponent(url)}`;const&#32;dates=`&amp;dates=${msToGCal(start)}/${msToGCal(end)}`;window.open(addEvent+encodeURIComponent(name)+details+dates)})(false);">WF2GCal</a></b></p>
+  <br>
+  <br>
+  <p><a href="https://rawbytz.wordpress.com">rawbytz.wordpress.com</a></p>
+</body>
+</html>
