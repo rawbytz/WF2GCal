@@ -1,5 +1,5 @@
 # WorkFlowy To Google Calendar Bookmarklet
-- Convert the zoomed WorkFlowy bullet into a Google Calendar event. 
+- Create a new Google Calendar event from the zoomed WorkFlowy bullet.
 
 ![WF2GCal](https://i.imgur.com/waRp4dy.png)
 
@@ -10,6 +10,7 @@
 ## Links:
 - [Source code](https://github.com/rawbytz/WF2GCal/blob/master/WF2GCal.js)
 - [rawbytz Blog](https://rawbytz.wordpress.com/2018/02/05/workflowy-to-new-google-calendar/)
+- [Chrome Extension](https://chrome.google.com/webstore/detail/workflowy-to-google-calen/jgcnopjghjlddcncaiohpbchlojdhgde)
 
 <!-- 
 LINKS REFERENCING THIS
