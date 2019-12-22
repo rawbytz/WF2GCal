@@ -1,5 +1,6 @@
 # WorkFlowy To Google Calendar Bookmarklet
 - Create a new Google Calendar event from the zoomed WorkFlowy bullet.
+- Also works on any webpage.
 
 ![WF2GCal](https://i.imgur.com/waRp4dy.png)
 
